@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="312.0" prefWidth="496.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.scenes.MenuController">
+   <children>
+      <ImageView fitHeight="90.0" fitWidth="178.0" layoutX="159.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue_button13.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="183.0" layoutY="31.0" prefHeight="34.0" prefWidth="130.0" text="How to play">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
